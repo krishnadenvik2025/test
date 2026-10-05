@@ -15,7 +15,6 @@ module.exports = {
         medium: 1,
         good: 2
     };
-
     const wifiStrength = msgData.wifi_strength
         ? wifiStrengthMap[msgData.wifi_strength.toLowerCase()] ?? null
         : null;
